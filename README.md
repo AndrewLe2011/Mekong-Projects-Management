@@ -3,8 +3,11 @@
 This is a ***PHP*** web application which is utilized to manage ***Mekong Power Generation Infrastructures*** by performing ***CRUD operations on CSV file*** and ***displaying data as a dataset from a hosting database.***
 
 ## Author
+
 Full Name: ***Le Nguyen Truong An***
+
 Student ID: ***s3820098***
+
 Location: ***Ho Chi Minh, Vietnam***
 
 ## Status
@@ -32,18 +35,25 @@ Other:
 
 ## Self-evaluation Checklist
 - **Functional Requirements:**
+
 	Home Page:
+	
 	1. Upload [data file](https://data.vietnam.opendevelopmentmekong.net/dataset/mekong-infrastructure-tracker/resource/9640d37d-53ca-42fb-83a0-04de89228f1d) to Google Bucket with the name of ***project.csv*** ✅
+	
 	2. Peform Create, Update, Delete operations ✅
 	
 	Querying Page:
+	
 	3. Upload [data file](https://data.vietnam.opendevelopmentmekong.net/dataset/mekong-infrastructure-tracker/resource/9640d37d-53ca-42fb-83a0-04de89228f1d) to Google BigQuery as a dataset ✅
+
 	4. Display all the projects information ✅
+
 	5.  Pagination: 
 		- Choose page size + default as 10 ✅
 		- Choose page number ✅
 		- Jump to Next and Previous page ✅
 		- Jump to First and Last page ✅
+
 	6. Searching and Filtering:
 		- Search projects by Name (Input Area) ✅
 		- Filter projects by Country (Selection Options) ✅
